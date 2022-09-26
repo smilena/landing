@@ -1,0 +1,93 @@
+[
+  {
+    "id": "home",
+    "component": "home",
+    "path": "/home",
+    "step": 1,
+    "label": "Vender"
+  },
+  {
+    "id": "name",
+    "component": "text_input",
+    "path": "/name",
+    "step": 2,
+    "label": "Nombres y apellidos"
+  },
+  {
+    "id": "email",
+    "component": "email_input",
+    "path": "/email",
+    "step": 3,
+    "label": "Email"
+  },
+  {
+    "id": "address",
+    "component": "text_input",
+    "path": "/address",
+    "step": 4,
+    "label": "Dirección"
+  },
+  {
+    "id": "floor",
+    "component": "number_input",
+    "path": "/floor",
+    "step": 5,
+    "label": "Piso"
+  }, 
+  {
+    "id": "zones",
+    "component": "checkbox_input",
+    "path": "/zones",
+    "step": 6,
+    "label": "Cuenta con las siguientes zonas comunes?:",
+    "options": [
+      {
+        "id": "bbq",
+        "label": "Zona BBQ"
+      },
+      {
+        "id": "communal_living",
+        "label": "Salón Comunal"
+      },
+      {
+        "id": "playground",
+        "label": "Parque de juegos"
+      }
+    ]
+  },
+  {
+    "id": "parking",
+    "component": "radio_input",
+    "path": "/parking",
+    "step": 7,
+    "label": "Tiene parqueadero?:",
+    "options": [
+      {
+        "id": "yes",
+        "label": "Si"
+      },
+      {
+        "id": "no",
+        "label": "No"
+      }
+    ],
+    "substep": {
+      "id": "covered",
+      "label": "Es parqueadero cubierto?:"
+    }
+  },
+  {
+    "id": "amount",
+    "component": "number_input",
+    "path": "/amount",
+    "step": 8,
+    "label": "Cuál es el valor del inmueble?"
+  },
+  {
+    "id": "elevator",
+    "component": "radio_input",
+    "path": "/elevator",
+    "step": 9,
+    "label": "Hay ascensor?"
+  }
+]

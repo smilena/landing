@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given EmailInput component should render correctly with initial state 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ eaUlQc"
+  >
+    <label
+      class="sc-gsnTZi bfxakb"
+      for="email"
+    >
+      Email
+    </label>
+    <input
+      class="sc-dkzDqf dWwYGf"
+      data-testid="input-email"
+      id="email"
+      type="email"
+      value="smilenaguevara@gmail.com"
+    />
+  </div>
+</div>
+`;

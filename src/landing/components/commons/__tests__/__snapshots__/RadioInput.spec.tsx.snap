@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given RadioInput component should render correctly 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ eaUlQc"
+  >
+    <label
+      class="sc-dkzDqf iguwhg"
+      for="floor"
+    >
+      Número de piso
+    </label>
+    <div
+      class="sc-gsnTZi kASbhL"
+    >
+      <label
+        class="sc-dkzDqf iguwhg"
+      >
+        Si
+      </label>
+      <input
+        class="sc-hKMtZM ijbipV"
+        type="radio"
+        value="true"
+      />
+    </div>
+    <div
+      class="sc-gsnTZi kASbhL"
+    >
+      <label
+        class="sc-dkzDqf iguwhg"
+      >
+        No
+      </label>
+      <input
+        checked=""
+        class="sc-hKMtZM ijbipV"
+        type="radio"
+        value="false"
+      />
+    </div>
+  </div>
+</div>
+`;

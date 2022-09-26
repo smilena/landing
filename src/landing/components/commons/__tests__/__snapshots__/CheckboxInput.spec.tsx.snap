@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given CheckboxInput component should render correctly 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ eaUlQc"
+  >
+    <label
+      class="sc-dkzDqf ebBqBq"
+      for="floor"
+    >
+      Número de piso
+    </label>
+    <div
+      class="sc-gsnTZi kASbhL"
+    >
+      <label
+        class="sc-dkzDqf ebBqBq"
+        for="bbq"
+      >
+        Zona BBQ
+      </label>
+      <input
+        class="sc-hKMtZM ijbipV"
+        type="checkbox"
+        value="bbq"
+      />
+    </div>
+  </div>
+</div>
+`;

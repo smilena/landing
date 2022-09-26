@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given TextInput component should render correctly with initial state 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ eaUlQc"
+  >
+    <label
+      class="sc-gsnTZi bfxakb"
+      for="name"
+    >
+      Nombres y apellidos
+    </label>
+    <input
+      class="sc-dkzDqf dWwYGf"
+      data-testid="input-text"
+      id="name"
+      type="text"
+      value="Sandra"
+    />
+  </div>
+</div>
+`;

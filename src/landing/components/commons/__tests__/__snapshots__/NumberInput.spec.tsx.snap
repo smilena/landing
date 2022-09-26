@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given NumberInput component should render correctly with initial state 1`] = `
+<div>
+  <div
+    class="sc-bczRLJ eaUlQc"
+  >
+    <label
+      class="sc-gsnTZi bfxakb"
+      for="floor"
+    >
+      Número de piso
+    </label>
+    <input
+      class="sc-dkzDqf dWwYGf"
+      data-testid="input-number"
+      id="floor"
+      max="50"
+      type="number"
+      value="6"
+    />
+  </div>
+</div>
+`;
