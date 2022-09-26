@@ -22,8 +22,12 @@ const Components = {
     top: 12%;
     background-color: rgba(255,255,255,0.95);
     z-index: 2;
-    left: 28%;
     padding: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70vw;
   `,
   ModalBackground: styled.div`
     width: 100vw;
